@@ -33,8 +33,8 @@ export class AppModule {}
 `import Qbit from 'qbit-node-sdk';`
 `import { QBIT_MANAGER } from 'nest-qbit';`
 
-`constructor(@Inject(QBIT_MANAGER) private QbitManager: Qbit) {}`
+`constructor(@Inject(QBIT_MANAGER) private qbit: Qbit) {}`
 
 ## 使用
 
-`const res = await this.QbitManager.getAccessToken();`
+`const res = await this.qbit.getAccessToken();`
