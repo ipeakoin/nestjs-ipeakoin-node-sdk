@@ -3,6 +3,7 @@
 ## 安装
 
 `npm install qbit-node-sdk`
+`npm install nest-qbit`
 
 ## 注册
 
