@@ -1,7 +1,7 @@
 {
   "name": "nest-qbit",
   "version": "1.0.1",
-  "description": "qbit api",
+  "description": "qbit bass api 接口支持",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -15,9 +15,11 @@
     "url": "git+https://github.com/klover2/nest-qbit-node-sdk.git"
   },
   "keywords": [
-    "qbit"
+    "qbit",
+    "全球账户",
+    "量子卡"
   ],
-  "author": "klover",
+  "author": "Qbit Team",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/klover2/nest-qbit-node-sdk/issues"
