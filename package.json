@@ -1,7 +1,7 @@
 {
-  "name": "nest-qbit",
-  "version": "1.0.1",
-  "description": "qbit bass api 接口支持",
+  "name": "@ipeakoin/nestjs-ipeakoin-sdk",
+  "version": "0.0.1-beta",
+  "description": "iPeakoin bass api",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -12,19 +12,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/klover2/nest-qbit-node-sdk.git"
+    "url": "git+https://github.com/ipeakoin/nestjs-ipeakoin-node-sdk.git"
   },
   "keywords": [
-    "qbit",
-    "全球账户",
-    "量子卡"
+    "iPeakoin",
+    "Global Account",
+    "Quantum Card",
+    "Crypto Asset"
   ],
-  "author": "Qbit Team",
+  "author": "iPeakoin Team",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/klover2/nest-qbit-node-sdk/issues"
+    "url": "https://github.com/ipeakoin/nestjs-ipeakoin-node-sdk/issues"
   },
-  "homepage": "https://github.com/klover2/nest-qbit-node-sdk#readme",
+  "homepage": "https://github.com/ipeakoin/nestjs-ipeakoin-node-sdk#readme",
   "files": [
     "dist"
   ],
@@ -39,6 +40,6 @@
     "eslint-plugin-import": "^2.20.1",
     "prettier": "^1.19.1",
     "ts-node": "^8.6.2",
-    "typescript": "^3.7.4"
+    "typescript": "^4.5.4"
   }
 }
