@@ -2,12 +2,12 @@
   <h1 align="center"><a href="javascript:void(0);">nestjs-ipeakoin-sdk</a></h1>
 </p>
 
-## 安装
+## Install
 
 `npm install @ipeakoin/ipeakoin-sdk --save`
 `npm install @ipeakoin/nestjs-ipeakoin-sdk --save`
 
-## 注册
+## Register
 
 ```js
 import { ClientModule } from '@ipeakoin/nestjs-ipeakoin-sdk';
@@ -27,16 +27,16 @@ import { ClientModule } from '@ipeakoin/nestjs-ipeakoin-sdk';
 })
 export class AppModule {}
 
-// 或者动态配置 useFactory: async (configService: ConfigService)
+// Or dynamic configuration useFactory: async (configService: ConfigService)
 ```
 
-## 交互
+## Interactive
 
 `import Client from '@ipeakoin/ipeakoin-sdk';`
 `import { IPEAKOIN_MANAGER } from '@ipeakoin/nestjs-ipeakoin-sdk';`
 
 `constructor(@Inject(IPEAKOIN_MANAGER) private client: Client) {}`
 
-## 使用
+## Start Using
 
-`const res = await this.client.getAccessToken();`
+`const res = await this.client.getCode();`
